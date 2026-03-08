@@ -1,12 +1,12 @@
 import {getAuth, GoogleAuthProvider} from "firebase/auth"
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_APIKEY ,
-  authDomain: "loginonecart.firebaseapp.com",
-  projectId: "loginonecart",
-  storageBucket: "loginonecart.firebasestorage.app",
-  messagingSenderId: "242165258894",
-  appId: "1:242165258894:web:0155a2ced93e20073247df"
+  apiKey: "AIzaSyCRJ1vwVMjRkefJvp39EHLw7mIfjggU9lc",
+  authDomain: "onecart-43977.firebaseapp.com",
+  projectId: "onecart-43977",
+  storageBucket: "onecart-43977.firebasestorage.app",
+  messagingSenderId: "849514418710",
+  appId: "1:849514418710:web:970025104ee91d1e3b5b37"
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app)
@@ -14,4 +14,5 @@ const provider = new GoogleAuthProvider()
 
 
 export {auth , provider}
+
 
