@@ -1,7 +1,7 @@
 import {getAuth, GoogleAuthProvider} from "firebase/auth"
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
-  apiKey: "AIzaSyCRJ1vwVMjRkefJvp39EHLw7mIfjggU9lc",
+  apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
   authDomain: "onecart-43977.firebaseapp.com",
   projectId: "onecart-43977",
   storageBucket: "onecart-43977.firebasestorage.app",
